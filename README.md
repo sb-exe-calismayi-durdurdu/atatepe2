@@ -2,7 +2,8 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Vercel for perform: https://vercel.com/sb-exe-calismayi-durdurdus-projects/atatepe2/D8NyP7tTW9GwPMvpW7SV27WFcoKy
+Vercel link for perform: https://vercel.com/sb-exe-calismayi-durdurdus-projects/atatepe2/D8NyP7tTW9GwPMvpW7SV27WFcoKy
+You can use as username 'dogru_kullanici' and password 'dogru_sifre'
 
 Currently, two official plugins are available:
 
