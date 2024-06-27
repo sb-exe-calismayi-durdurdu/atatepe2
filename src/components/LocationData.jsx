@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 function LocationData() {
 
     const [names, setNames] = useState([]);
-    const [images, setImages] = useState([]);
 
     useEffect(() => {
         fetch('/tesisler.json')

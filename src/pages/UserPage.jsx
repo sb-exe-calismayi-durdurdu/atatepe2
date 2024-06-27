@@ -20,7 +20,6 @@ import DeskU18 from '../components/desks-for-users/DeskU18'
 import DeskU19 from '../components/desks-for-users/DeskU19'
 import DeskU20 from '../components/desks-for-users/DeskU20'
 import Rate from '../components/Rate'
-import LocationData from '../components/LocationData'
 
 function UserPage() {
     return (

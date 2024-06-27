@@ -1,16 +1,12 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-const initialState = {
-    booler : false
-}
+const initialState = {booler : false}
 
 export const boolSlice = createSlice({
     name : "booler",
     initialState,
     reducers : {
-        change : (state) => {
-            state.booler = !state.booler
-        }
+        change : (state) => {state.booler = !state.booler}
     }
 })
 
