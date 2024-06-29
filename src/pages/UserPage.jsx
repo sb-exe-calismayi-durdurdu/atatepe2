@@ -22,6 +22,8 @@ import DeskU20 from '../components/desks-for-users/DeskU20'
 import Rate from '../components/Rate'
 
 function UserPage() {
+    sessionStorage.setItem("Which Page", "User Page")
+    localStorage.setItem("Page Position", "Out");
     return (
         <div>
             <div className='container'>
