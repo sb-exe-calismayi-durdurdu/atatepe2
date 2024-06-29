@@ -1,4 +1,3 @@
-/*Bu dosyada diğer tesislerin konumları yer alacaktır*/
 import React from 'react'
 import LocationData from '../components/LocationData'
 
