@@ -21,6 +21,7 @@ import Desk19 from '../components/desks/Desk19'
 import Desk20 from '../components/desks/Desk20'
 
 function StuffPage() {
+    sessionStorage.setItem("Which Page", "Stuff Page")
     return (
         <div className='container mb-5'>
             <div className='container'>
@@ -51,6 +52,9 @@ function StuffPage() {
                     <div className='col-md-2'><Desk18 /></div>
                     <div className='col-md-2'><Desk19 /></div>
                     <div className='col-md-2'><Desk20 /></div>
+                </div>
+                <div>
+                    <button>ÇIKIŞ</button>
                 </div>
             </div>
         </div>
