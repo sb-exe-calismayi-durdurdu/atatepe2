@@ -11,11 +11,15 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (username === 'dogru_kullanici' && password === 'dogru_sifre') {
-      setLoggedIn(true);
+    if (username === 'ka' && password === 'sf') {
+      localStorage.setItem("Page Position", "In")
     } else {
+      localStorage.setItem("Page Position", "Out")
       alert('Hatalı kullanıcı adı veya şifre.');
     }
+    var position = localStorage.getItem("Page Position")
+    if (position === "In") {setLoggedIn(true)}
+    else {setLoggedIn(false)}
   }
   return (
     <div>
@@ -44,8 +48,9 @@ function Login() {
           )}
         </div>
       </div>
-      <UserPage />
-      {loggedIn && <StuffPage />}</div>
+      {!loggedIn && <UserPage />}
+      {loggedIn && <StuffPage />}
+      </div>
   )
 }
 
